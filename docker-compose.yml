@@ -5,8 +5,8 @@ services:
     container_name: dongguatv
     restart: unless-stopped
     ports:
-    - "3000:3000"
+    - "30031:30031"
     environment:
-    #- PORT=3000
+    #- PORT=30031
     - TMDB_API_KEY=key
     - ADMIN_PASSWORD=admin
